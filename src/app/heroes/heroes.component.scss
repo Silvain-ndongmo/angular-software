@@ -1,3 +1,4 @@
+/* HeroesComponent's private CSS styles */
 .heroes {
     margin: 0 0 2em 0;
     list-style-type: none;
@@ -20,12 +21,12 @@
     left: .1em;
   }
   .heroes li.selected {
-    background-color: #CFD8DC;
-    color: white;
+    background-color:green;
+    color:black;
   }
   .heroes li.selected:hover {
-    background-color: #BBD8DC;
-    color: white;
+    background-color:white;
+    color:black;
   }
   .heroes .badge {
     display: inline-block;
