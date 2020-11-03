@@ -5,10 +5,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
 
 import { Hero } from './hero';
-import { HEROES } from './mock-heroes';
 import { MessageService } from './message.service';
-import { getSyntheticPropertyName } from '@angular/compiler/src/render3/util';
-
 @Injectable({ providedIn: 'root' })
 export class HeroService {
   private heroesUrl = 'api/heroes';
